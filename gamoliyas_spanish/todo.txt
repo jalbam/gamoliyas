@@ -1,0 +1,53 @@
+//* poder borrar kon doble click!!!!!!!!1 para el opera de la wii.
+
+* intentar poner una imagen tipo button en lugar del boton submit de OK. kiza tambien substituir los demas botones de los otros formularios tambien.
+//* falta poder utilizar el tecklado para pintar para el opera!!!! (mejor dicho borrar)
+
+//* opcion para crear aleatoriamente el tablero. sin tope de individuos i tambien kon tope. podria ser asi: crear_tablero_aleatoriamente(tope_habitantes);, si tope_habitanes = 0, entonces no hai limite. cogeria el alto y ancho del tablero comun.
+
+* ke la funcion de mostrar el panel reduzka o aumente la fuente d texto segun el numero de caracteres (strlen), kzia haia ke kitar los &nbsp; o algo asi kon una expesion regular. es ke si no es mui probable de ke excesa su tamaño i se vea mal.
+* kiza para ajustar el mapa de guardar/abrir se pueda utilizar un span i ia se ajustara al kodigo. no se porke no funciona kon span.
+* ke el width i height del div kon el mapa de ceros i unos en guardar_abrir se modifike segun el tamaño ke tenga el mapa.
+
+* al salir del menu de guardar o abrir, sigue estando en pausa. kiza habria ke hace runa variable para indikar si antes ia estaba en pausa o no. i si no estaba, ke siga kon el play.
+
+//* una opcion para ver de distinto color cada casilla segun los vecinos que tenga. poder poner esta opcion por get (url) i tambien al guardar mapa ke salga.
+//* el zindex del alert tiene menos o igual k el dialogo de abrir i guardar i se ve debajo!!!!!! deberia verse encima.
+//* kambiar kursor a hand i pointer en las opciones del menu guardar.
+//* ke se puedan modifikar mundo esferiko, velocidad i reproducir automatikamente al guardar el mapa. al kambiar estos valores, ke kambie la url generada.
+//* ke se genere una url al guardar mapa i ke kambie al kambiar algunos valores k se puedan kambiar.
+//* separar abrir i guardar i en la opcion de abrir ke solo salga lo de introducir la URL. i al darle a aceptar ke la kargue leyendo la kadena de la url i aplikando las opciones (no usar href location ni nada porke en opera widgets no iria)
+//* poder eskonder tambien por get i tenerlo en kuenta para guardar: los dos menus inferiores, e inkluso el nombre de autor.
+//* que se pueda enviar por get una variable para que el menu de arriba desaparezka. i kiza tambien otra para el de abajo. i otra variable para impedir pintar o borrar kuadros. i otra para kambiar el alto y ancho de las celdas i su espaciado. ke al guardar o abrir mapas tambien se tengan en kuenta! (igual ke mundo esferiko, etc)
+//* al guardar el mapa que haga antes una pausa y luego muestre el codigo del mapa en kurso.
+//* ke al guardar ademas del kodigo se pueda guardar una url que pase por get
+//* poner la poblacion (numero de habitantes o individuos) tambien, ademas de los ciclos!!!
+//* ke tambien se pueda enviar por url si el mundo es esferiko o no.
+//* al estar en pausa e inkrementar o modificar la velocidad, el juego vuelve a estar aktivo!! deberia seguir en pausa.
+//* poder pasar por get el alto, ancho y el mapa al juego. tambien la opcion de reproducir automatikamente i la velocidad entre ciklos.
+//* impedir oncontextmenu (pa mozilla tb) para toda la zona de jeugo, por si se aprieta boton derecho en el espaciado de las celdas.
+//* poner en un rinkon si la poblacion es estable o no i tambien el numero de ciclos ke lleva (dejar mucho espacio por si hace muchisimos). tambien si el juego esta pausado o parado o en kurso.
+//* poner el mensaje igual de ancho y encima del panel2.
+//* poner un borde en los botones al pasar por encima de ellos. al pasar por uno ke una funcion se enkargue de eliminar los bordes de los demas por si existieran (o del ultimo mejor, gracias a una variable global). el borde podria kedarse fijo al pausar i kitarse al reanudar (ia sea kon otra vez en el pausa o en el play). al padsar por encima del pausa i luego irse si esta aun pausado no deberia kitarse el borde. ke siempre tenga un borde aunke invisible (del mismo kolor ke el fondo kiero decir).
+//* poner debajo de kada boton lo ke hace, kon un span kiza.
+//* resaltar la celda en la ke se pone el kursor encima (borrar la ultima resaltada kon una variable global).
+//* poner border siempre i resaltarlos kuando se ponga el kursor encima en las opciones de arriba.
+//* usar un span con la label de la accion en las opciones de arriba.
+//* opcion para cambiar el alto y ancho del tablero.
+//* poder cambiar los milisegundos con los que se llama a la funcion de hacer_ciclo(). no dejar poner 0 o menor, solo mayor que 0.
+//* opcion de mundo esferico.
+//* opcion para poder cargar un tablero de 0 i 1 (desde un formulario). Se tendra que indicar como minimo las columnas o las filas (una de las dos o las dos cosas).
+
+* poner las celdas juntas y luego las lineas (guias) ke se puedan kitar o poner (se pondran encima de las celdas).
+* poder elegir figuras para poner (barkos, paneles...) i al hacer click poder arrastrarla hasta donde la queremos i al hacer click que se quede.
+
+* opcion de mostrar el codigo del tablero (por si se quiere guardar). si hay opcion para ir hacia atras podremos ir hacia atras y guardar uno anterior o el primero (si la memoria lo permite).
+* si se hace click (no onmousedown) en una celda ia pintada, ke la borre. tambien poder borrar kon un i/o kon el teklado.
+
+* podria haber la opcion de enviar solo el ancho o solo el alto del tablero, i kalkular el otro dato ke falta (siempre i kaundo se envie el mapa).
+
+* [problema] el evento onmouseup i onmousedown se producen tambien con el boton derecho, lo cual hace que puedas pintar con el derecho mientras arrastras el raton. habria que detectar cual es y borrar con el derecho y con el izquierdo u otro pintar. AKORDARSE DE KE EL ONMOUSEDOWN I EL ONMOUSEUP ESTAN TAMBIEN EN LA ZONA DE JUEGO Y NO SOLO EN LOS DIVS GENERADOS DE KADA CELDA.
+* ke se pudiera hacer modifikar el alto y el ancho sin tener ke borrar el tablero. estaria chulo ke en la eskina inferior derecha hubiera algo ke se arrastrara i kon alpha salieran los kuadros nuevos (ia sean mas o menos) i al soltar, si se ha kambiado el tamaño, ke lo aplike.
+* un boton para tirar hacia atras. si no hay un algiritmo para retroceder, guardar una matriz de backup (tener un limite para no saturar la memoria).
+* kiza buskar alguna manera de saber si una poblacion es estable pero ciklika (kumple unos ciklos pero es un bukle).
+//* kiza pueda saberse si esun ciklo o no si la poblacion k se procesa es la misma poblacion k la antepenultima (si tenemos en kuenta ke la ultima es la anterior). o si un estado ia ha existido antes, exceptuando el vacio (el problema es ke se puede modifikar el estado pintando).

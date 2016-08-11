@@ -13,3 +13,5 @@ Description
 
 Gamoliyas is an open source John Conway's Game of Life game totally written in DHTML (JavaScript, CSS and HTML). Uses mouse and keyboard. Very configurable.
 This cross-platform and cross-browser game was tested under BeOS, Linux, NetBSD, OpenBSD, FreeBSD, Windows and others.
+
+Official web site: http://gamoliyas.tuxfamily.org/ (mirror at http://www.dhtmlgames.com/gamoliyas/).
