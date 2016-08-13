@@ -13,7 +13,7 @@ Description
 
 Open source Conway's Game of Life version (highly configurable) totally written in DHTML (HTML, CSS and JavaScript).
 
-It is my nineth DHTML game and was made in mid 2007.
+It is my ninth DHTML game and was made in mid 2007.
 
 Players can configure the game with many options, as changing the world size, choosing between spherical and limited world, using colours that change depending on the number of neighbours, changing speed, saving a world or opening a previously stored one, drawing cells yourself or generating them randomly, etc.
 
