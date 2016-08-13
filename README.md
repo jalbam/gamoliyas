@@ -5,7 +5,7 @@ by Joan Alba Maldonado (joanalbamaldonadoNO_SPAM_PLEASE AT gmail DOT com, withou
 Game of Life totally written in DHTML.
 
 Version: 0.12a 
-Date: 13th August 2007 (approximately).
+- Date: 13th August 2007 (approximately).
 
 You can donate at http://sourceforge.net/project/project_donations.php?group_id=203173
 
