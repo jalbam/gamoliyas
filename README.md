@@ -10,6 +10,9 @@ Version: 0.12a
 You can donate at http://sourceforge.net/project/project_donations.php?group_id=203173
 
 
+![ScreenShot](screenshot.gif)
+
+
 Description
 
 Open source Conway's Game of Life version (highly configurable) totally written in DHTML (HTML, CSS and JavaScript).
