@@ -13,7 +13,7 @@ You can donate at http://sourceforge.net/project/project_donations.php?group_id=
 ![ScreenShot](screenshot.gif)
 
 
-Description
+## Description
 
 Open source Conway's Game of Life version (highly configurable) totally written in DHTML (HTML, CSS and JavaScript).
 
@@ -33,5 +33,12 @@ You can find other modified and adapted versions of this game on the Internet, i
 
 This game has been tested under BeOS, Linux, NetBSD, OpenBSD, FreeBSD, Windows, Mac OS X, BlackBerry Tablet OS, Android, iOS and others.
 
+Play online in English: http://gamoliyas.tuxfamily.org/gamoliyas_english/
+
+Play online in English (mirror): http://www.dhtmlgames.com/gamoliyas/gamoliyas_english/
+
+Play online in Spanish: http://gamoliyas.tuxfamily.org/gamoliyas_spanish/
+
+Play online in Spanish (mirror): http://www.dhtmlgames.com/gamoliyas/gamoliyas_spanish/
 
 Official web site: http://gamoliyas.tuxfamily.org/ (mirror at http://www.dhtmlgames.com/gamoliyas/).
